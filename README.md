@@ -67,6 +67,3 @@ Equation of a straight line can be given as :
 
 We can transform every line from 2D Space(X vs Y) to the Hough Space(M vs C).
 Just remember that - **A single point is 2D Space is represented by a line in Hough Space.**
-
-#### Ultimate Goal - Try to find a line that best describes our points.
-
