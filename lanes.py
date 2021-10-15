@@ -52,6 +52,9 @@ def region_of_interest(image):
     masked_image = cv2.bitwise_and(image, mask)
     return masked_image
 
+
+#TO READ IMAGE
+
 #image = cv2.imread('test_image.jpg')
 #lane_image = np.copy(image)
 #canny_image = canny(lane_image)
@@ -62,6 +65,9 @@ def region_of_interest(image):
 #combo_image = cv2.addWeighted(lane_image, 0.8, line_image, 1, 1)
 #cv2.imshow("result" , combo_image)
 #cv2.waitKey(0)
+
+
+#TO READ VIDEO   
 
 cap = cv2.VideoCapture("test2.mp4")
 while(cap.isOpened()):
